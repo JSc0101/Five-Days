@@ -4,10 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}">
     <title>Five Days</title>
   </head>
   <body>
     <h1>Hello world desde Flask</h1>
     <p>Lorem, ipsum dolor.</p>
+    <script src="{{ url_for('static', filename='script/app.js')  }}"></script>
   </body>
 </html>

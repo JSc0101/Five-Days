@@ -8,7 +8,7 @@
       rel="stylesheet"
       href="{{ url_for('static', filename='css/index.css')}}"
     />
-    <title>Five Days</title>
+    <title>Document</title>
   </head>
   <body>
     <header>
@@ -24,8 +24,8 @@
         </div>
       </nav>
     </header>
-    <main></main>
-    <footer></footer>
+    {% block content %} 
+    {% endblock %}
     <script src="{{ url_for('static', filename='script/main.js')  }}"></script>
   </body>
 </html>

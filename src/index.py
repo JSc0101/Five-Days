@@ -23,6 +23,13 @@ def home():
 """
 #! Valido si la variable que estoy recibiendo es la principal.
 """
+
+"""
+ #! : de esta forma podemos crear mas rutas utilizando flash y renderizarlas con la funcion "render_template".
+"""
+@app.route("/noFound")
+def notFound():
+    pass
 if __name__ == '__main__':
     """
         #! Arranco el servidor
